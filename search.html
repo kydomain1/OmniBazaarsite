@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search - OmniBazaarsite</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html" style="text-decoration: none; color: inherit;">OmniBazaarsite</a></h1>
+                <p class="tagline">Your Lifestyle Companion</p>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Search Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Search Results</h1>
+            <p>Find articles, products, and recommendations</p>
+        </div>
+    </section>
+
+    <!-- Search Bar -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" id="searchInput" placeholder="Search articles, products, and recommendations..." value="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Results -->
+    <section class="blog-section">
+        <div class="container">
+            <div id="searchInfo" class="search-info" style="margin-bottom: var(--spacing-lg);">
+                <!-- Search info will be displayed here -->
+            </div>
+            <div id="blogGrid" class="blog-grid">
+                <!-- Search results will be dynamically loaded here -->
+            </div>
+            <div class="pagination" id="pagination">
+                <!-- Pagination will be dynamically generated -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>OmniBazaarsite</h3>
+                    <p>Your trusted source for lifestyle inspiration and recommendations.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="index.html" data-category="fashion">Fashion & Accessories</a></li>
+                        <li><a href="index.html" data-category="beauty">Health & Beauty</a></li>
+                        <li><a href="index.html" data-category="home">Home & Garden</a></li>
+                        <li><a href="index.html" data-category="travel">Travel & Accommodation</a></li>
+                        <li><a href="index.html" data-category="finance">Finance & Insurance</a></li>
+                        <li><a href="index.html" data-category="food">Food & Beverages</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/OmniBazaarsite" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/omnibazaarsite" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/omnibazaarsite" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.pinterest.com/omnibazaarsite" target="_blank" rel="noopener noreferrer" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                        <a href="https://www.youtube.com/@omnibazaarsite" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 OmniBazaarsite. All rights reserved. | <a href="privacy.html" style="color: var(--text-secondary); text-decoration: none;">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // Search page specific functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get search query from URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const searchQuery = urlParams.get('q') || '';
+            
+            // Set search input value
+            const searchInput = document.getElementById('searchInput');
+            if (searchInput) {
+                searchInput.value = searchQuery;
+                
+                // Update search on input
+                searchInput.addEventListener('input', function() {
+                    const query = this.value;
+                    if (query) {
+                        window.history.pushState({}, '', `search.html?q=${encodeURIComponent(query)}`);
+                        currentSearch = query.toLowerCase();
+                        currentPage = 1;
+                        displaySearchResults();
+                        setupPagination();
+                    } else {
+                        window.history.pushState({}, '', 'search.html');
+                        currentSearch = '';
+                        displaySearchResults();
+                        setupPagination();
+                    }
+                });
+                
+                // Handle Enter key
+                searchInput.addEventListener('keypress', function(e) {
+                    if (e.key === 'Enter') {
+                        const query = this.value;
+                        if (query) {
+                            window.history.pushState({}, '', `search.html?q=${encodeURIComponent(query)}`);
+                            currentSearch = query.toLowerCase();
+                            currentPage = 1;
+                            displaySearchResults();
+                            setupPagination();
+                        }
+                    }
+                });
+            }
+            
+            // Initialize search
+            if (searchQuery) {
+                currentSearch = searchQuery.toLowerCase();
+            }
+            
+            displaySearchResults();
+            setupPagination();
+            setupMobileMenu();
+        });
+        
+        function displaySearchResults() {
+            // Ensure posts are loaded
+            if (typeof blogPosts === 'undefined' || !blogPosts.length) {
+                if (typeof allPosts !== 'undefined' && allPosts.length) {
+                    // Posts already loaded
+                } else {
+                    // Wait a bit for data.js to load
+                    setTimeout(displaySearchResults, 100);
+                    return;
+                }
+            } else {
+                allPosts = blogPosts;
+            }
+            
+            const filteredPosts = getFilteredPosts();
+            const startIndex = (currentPage - 1) * postsPerPage;
+            const endIndex = startIndex + postsPerPage;
+            const postsToShow = filteredPosts.slice(startIndex, endIndex);
+            
+            const blogGrid = document.getElementById('blogGrid');
+            const searchInfo = document.getElementById('searchInfo');
+            
+            if (!blogGrid || !searchInfo) return;
+            
+            // Display search info
+            if (currentSearch) {
+                const resultCount = filteredPosts.length;
+                searchInfo.innerHTML = `
+                    <p style="color: var(--text-primary); font-size: 1.1rem;">
+                        <strong>${resultCount}</strong> ${resultCount === 1 ? 'result' : 'results'} found for "<strong style="color: var(--primary);">${escapeHtml(currentSearch)}</strong>"
+                    </p>
+                `;
+            } else {
+                searchInfo.innerHTML = `
+                    <p style="color: var(--text-secondary); font-size: 1.1rem;">
+                        Enter a search term to find articles, products, and recommendations
+                    </p>
+                `;
+            }
+            
+            if (postsToShow.length === 0) {
+                blogGrid.innerHTML = `
+                    <div style="grid-column: 1 / -1; text-align: center; padding: 3rem;">
+                        <i class="fas fa-search" style="font-size: 3rem; color: var(--text-secondary); margin-bottom: 1rem;"></i>
+                        <p style="color: var(--text-secondary); font-size: 1.1rem; margin-bottom: 0.5rem;">No articles found.</p>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem;">Try a different search term or <a href="index.html" style="color: var(--primary); text-decoration: none;">browse all articles</a></p>
+                    </div>
+                `;
+                return;
+            }
+            
+            blogGrid.innerHTML = postsToShow.map(post => `
+                <a href="article.html?id=${post.id}" class="blog-card fade-in">
+                    <img src="${post.image}" alt="${post.title}" class="blog-card-image" onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'220\'%3E%3Crect fill=\'%23D4A5A5\' width=\'400\' height=\'220\'/%3E%3Ctext fill=\'%23FFFFFF\' font-family=\'Arial\' font-size=\'18\' x=\'50%25\' y=\'50%25\' text-anchor=\'middle\' dy=\'.3em\'%3EImage%3C/text%3E%3C/svg%3E';">
+                    <div class="blog-card-content">
+                        <span class="blog-card-category">${getCategoryName(post.category)}</span>
+                        <h3 class="blog-card-title">${post.title}</h3>
+                        <p class="blog-card-excerpt">${post.excerpt}</p>
+                        <div class="blog-card-meta">
+                            <span><i class="far fa-calendar"></i> ${post.date}</span>
+                            <span><i class="far fa-clock"></i> ${post.readTime}</span>
+                        </div>
+                    </div>
+                </a>
+            `).join('');
+        }
+        
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+    </script>
+</body>
+</html>
+
