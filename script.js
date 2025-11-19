@@ -309,11 +309,14 @@ function setupMobileMenu() {
 }
 
 // Article page functionality
-if (window.location.pathname.includes('article.html')) {
-    document.addEventListener('DOMContentLoaded', function() {
+// Use DOM detection instead of strict URL matching so it works on /article, /article.html, etc.
+document.addEventListener('DOMContentLoaded', function() {
+    // If this page contains an article container, treat it as the article page
+    const articleContainer = document.querySelector('.article-content');
+    if (articleContainer) {
         loadArticle();
-    });
-}
+    }
+});
 
 function loadArticle() {
     const urlParams = new URLSearchParams(window.location.search);
