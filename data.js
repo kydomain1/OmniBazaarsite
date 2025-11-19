@@ -290,6 +290,175 @@ const blogPosts = [
                 image: 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=300&h=200&fit=crop'
             }
         ]
+    },
+    {
+        id: '6',
+        title: 'Travel to France with Ease and Comfort: Fly FrenchBee',
+        excerpt: 'Discover how FrenchBee makes traveling to France affordable and comfortable. Learn about their modern A350 fleet, excellent service, and convenient routes connecting Paris to destinations worldwide.',
+        category: 'travel',
+        date: 'October 3, 2025',
+        readTime: '10 min read',
+        image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&h=400&fit=crop',
+        content: `
+            <h2>Why Choose FrenchBee for Your Journey to France</h2>
+            <p>Planning a trip to France has never been easier or more affordable. FrenchBee, France's premier low-cost long-haul airline, offers travelers an exceptional way to reach the City of Light and beyond. With their modern fleet, competitive prices, and commitment to comfort, FrenchBee has revolutionized transatlantic and international travel to France.</p>
+            
+            <p>Whether you're dreaming of strolling along the Champs-Élysées, exploring the historic streets of Montmartre, or discovering the French countryside, FrenchBee provides a comfortable and budget-friendly gateway to your French adventure.</p>
+            
+            <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&h=500&fit=crop" alt="Airplane flying over France" class="article-image" style="width: 100%; border-radius: var(--radius-md); margin: var(--spacing-lg) 0; box-shadow: 0 4px 12px var(--shadow);">
+            
+            <h2>Modern Fleet and Comfortable Experience</h2>
+            <p>FrenchBee operates an all-Airbus A350 fleet, one of the most modern and fuel-efficient aircraft in the sky. These state-of-the-art planes are designed with passenger comfort in mind, featuring advanced air filtration systems, reduced cabin noise, and larger windows that let in more natural light.</p>
+            
+            <p>The A350's innovative design means you'll arrive at your destination feeling more refreshed. The cabin pressure and humidity levels are optimized for long-haul flights, reducing the fatigue often associated with extended travel. Whether you're flying from New York, Los Angeles, or San Francisco, you'll appreciate the thoughtful engineering that makes your journey more pleasant.</p>
+            
+            <h2>Two-Class Service Options</h2>
+            <h3>Economy Class</h3>
+            <p>FrenchBee's Economy Class offers excellent value without compromising on comfort. The seats are ergonomically designed with ample legroom, and you can customize your experience by selecting additional services like checked baggage, seat selection, and meal options. This à la carte approach means you only pay for what you need, keeping your base fare affordable.</p>
+            
+            <h3>Premium Class</h3>
+            <p>For those seeking extra comfort, Premium Class provides a more spacious experience with wider seats, additional legroom, priority boarding, and enhanced meal service. It's the perfect option for business travelers or anyone wanting to arrive in France feeling relaxed and ready to explore.</p>
+            
+            <img src="images/高级仓.png" alt="Premium Class cabin" class="article-image" style="width: 100%; border-radius: var(--radius-md); margin: var(--spacing-lg) 0; box-shadow: 0 4px 12px var(--shadow);">
+            
+            <h2>Convenient Routes and Destinations</h2>
+            <p>FrenchBee connects Paris-Orly Airport with major cities across North America, making it easy to reach France from the United States and Canada. Popular routes include flights to and from New York, Los Angeles, San Francisco, Miami, and Montreal. The airline also serves beautiful destinations like Tahiti and Punta Cana, perfect for those looking to extend their French adventure.</p>
+            
+            <p>Paris-Orly Airport, FrenchBee's hub, offers a more relaxed alternative to the busy Charles de Gaulle Airport. With shorter security lines and easier navigation, you'll find your arrival and departure experience smoother and less stressful.</p>
+            
+            <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=500&fit=crop" alt="Paris Eiffel Tower" class="article-image" style="width: 100%; border-radius: var(--radius-md); margin: var(--spacing-lg) 0; box-shadow: 0 4px 12px var(--shadow);">
+            
+            <h2>Onboard Amenities and Services</h2>
+            <p>During your flight, FrenchBee ensures you stay connected and entertained. The airline offers Wi-Fi connectivity, allowing you to stay in touch with loved ones or catch up on work. The in-flight entertainment system provides a selection of movies, TV shows, and music to keep you entertained throughout your journey.</p>
+            
+            <p>When it comes to dining, FrenchBee offers a variety of meal options that can be pre-ordered or purchased onboard. From French-inspired cuisine to international favorites, there's something to satisfy every palate. The airline also accommodates special dietary requirements, ensuring all passengers can enjoy their meals.</p>
+            
+            <h2>Booking Your Flight</h2>
+            <p>Booking with FrenchBee is straightforward and user-friendly. Their website, available in multiple languages, makes it easy to search for flights, compare prices, and manage your booking. The transparent pricing model means you'll know exactly what you're paying for, with no hidden fees.</p>
+            
+            <p>For the best deals, consider booking in advance and being flexible with your travel dates. FrenchBee regularly offers promotions and special fares, especially during off-peak seasons. Signing up for their newsletter is a great way to stay informed about the latest offers and discounts.</p>
+            
+            <img src="images/预定.png" alt="Booking your flight" class="article-image" style="width: 100%; border-radius: var(--radius-md); margin: var(--spacing-lg) 0; box-shadow: 0 4px 12px var(--shadow);">
+            
+            <h2>Tips for a Smooth Journey</h2>
+            <p>To make the most of your FrenchBee experience, consider these helpful tips:</p>
+            <ul>
+                <li><strong>Pack Smart:</strong> Review FrenchBee's baggage policy and pack accordingly. Consider pre-booking checked luggage if you need it, as it's often cheaper than adding it at the airport.</li>
+                <li><strong>Arrive Early:</strong> Give yourself plenty of time at the airport, especially for international flights. Arriving 3 hours before departure is recommended.</li>
+                <li><strong>Stay Hydrated:</strong> Long flights can be dehydrating. Bring a refillable water bottle and take advantage of the water stations after security.</li>
+                <li><strong>Download the App:</strong> FrenchBee's mobile app makes it easy to check in, manage your booking, and receive flight updates.</li>
+                <li><strong>Explore Paris:</strong> Once you arrive, take advantage of Paris's excellent public transportation system to explore the city and beyond.</li>
+            </ul>
+            
+            <h2>Conclusion</h2>
+            <p>FrenchBee has successfully combined affordability with comfort, making travel to France accessible to more people than ever before. With their modern A350 fleet, flexible service options, and convenient routes, they've created an airline experience that doesn't compromise on quality despite the low-cost model.</p>
+            
+            <p>Whether you're planning your first trip to France or returning to explore more of this beautiful country, FrenchBee offers a reliable and comfortable way to get there. Start planning your French adventure today and discover why so many travelers choose FrenchBee for their journey to France.</p>
+        `,
+        products: [
+            {
+                name: 'Travel Adapter for France',
+                description: 'Universal travel adapter compatible with French Type E outlets. Compact design with USB ports for charging multiple devices during your trip.',
+                image: 'images/转换器.png'
+            },
+            {
+                name: 'French Travel Guide Book',
+                description: 'Comprehensive guidebook covering Paris and regions of France. Includes maps, restaurant recommendations, cultural insights, and practical travel tips.',
+                image: 'https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=300&h=200&fit=crop'
+            },
+            {
+                name: 'Travel Backpack for Europe',
+                description: 'Durable, lightweight backpack perfect for exploring France. Features multiple compartments, comfortable straps, and security features for peace of mind.',
+                image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=300&h=200&fit=crop'
+            },
+            {
+                name: 'Noise-Canceling Headphones',
+                description: 'Premium noise-canceling headphones for comfortable long-haul flights. Enjoy your in-flight entertainment in peace and arrive refreshed.',
+                image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&h=200&fit=crop'
+            }
+        ]
+    },
+    {
+        id: '7',
+        title: 'Relax in Paradise: Book Your Dream Holiday Now',
+        excerpt: 'Discover how to plan and book your perfect holiday getaway. From tropical beaches to cultural cities, learn about the best destinations and booking platforms to make your dream vacation a reality.',
+        category: 'travel',
+        date: 'October 8, 2025',
+        readTime: '12 min read',
+        image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=400&fit=crop',
+        content: `
+            <h2>Your Dream Holiday Awaits</h2>
+            <p>In today's fast-paced world, taking time to relax and recharge is more important than ever. Whether you're dreaming of pristine beaches, exploring ancient cities, or immersing yourself in new cultures, planning the perfect holiday is the first step toward creating unforgettable memories. With platforms like <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a>, booking your ideal vacation has never been easier or more accessible.</p>
+            
+            <p><a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> offers travelers an extensive selection of holiday packages, making it simple to find and book the perfect getaway. From all-inclusive beach resorts to city breaks and adventure tours, <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> provides options for every type of traveler and budget.</p>
+            
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=500&fit=crop" alt="Tropical beach paradise" class="article-image" style="width: 100%; border-radius: var(--radius-md); margin: var(--spacing-lg) 0; box-shadow: 0 4px 12px var(--shadow);">
+            
+            <h2>Why Choose loveholidays for Your Next Vacation</h2>
+            <p>When it comes to booking your dream holiday, <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> stands out as a trusted platform that simplifies the entire booking process. The user-friendly interface of <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> allows you to search, compare, and book holidays with ease. Whether you're planning a romantic getaway, family vacation, or solo adventure, <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> has something for everyone.</p>
+            
+            <p>One of the key advantages of using <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> is the comprehensive range of destinations available. From the sun-kissed beaches of the Mediterranean to the exotic islands of Southeast Asia, <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> connects you with incredible travel opportunities around the world.</p>
+            
+            <h2>Exploring Destinations with loveholidays</h2>
+            <p><a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> offers an impressive selection of destinations that cater to all preferences. If you're seeking tropical paradise, <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> features packages to destinations like the Maldives, Bali, and the Caribbean. For those interested in cultural experiences, <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> provides options for European city breaks, Asian adventures, and Middle Eastern explorations.</p>
+            
+            <p>When browsing through <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a>, you'll find detailed information about each destination, including hotel options, flight details, and local attractions. This comprehensive approach makes <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> an ideal platform for both first-time travelers and seasoned explorers.</p>
+            
+            <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=500&fit=crop" alt="Beautiful vacation destination" class="article-image" style="width: 100%; border-radius: var(--radius-md); margin: var(--spacing-lg) 0; box-shadow: 0 4px 12px var(--shadow);">
+            
+            <h2>All-Inclusive Packages on loveholidays</h2>
+            <p>One of the most popular options available through <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> is the all-inclusive holiday package. These packages offered by <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> typically include flights, accommodation, meals, and often additional amenities like spa access, water sports, and entertainment. Booking an all-inclusive package through <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> means you can relax and enjoy your vacation without worrying about additional costs.</p>
+            
+            <p><a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> makes it easy to filter and search for all-inclusive options, allowing you to find the perfect package that fits your budget and preferences. Whether you're looking for a luxury resort or a budget-friendly option, <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> has you covered.</p>
+            
+            <h2>Booking Process with loveholidays</h2>
+            <p>The booking process on <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> is designed to be straightforward and user-friendly. When you visit <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a>, you can start by entering your preferred destination, travel dates, and number of travelers. The platform used by <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> will then display available options, making it easy to compare prices and amenities.</p>
+            
+            <p>Customer support is another strength of <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a>. If you have questions during the booking process or need assistance with your reservation, the team at <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> is available to help. This level of service makes <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> a reliable choice for your holiday planning needs.</p>
+            
+            <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=500&fit=crop" alt="Luxury resort vacation" class="article-image" style="width: 100%; border-radius: var(--radius-md); margin: var(--spacing-lg) 0; box-shadow: 0 4px 12px var(--shadow);">
+            
+            <h2>Special Offers and Deals on loveholidays</h2>
+            <p>Regular promotions and special offers are a highlight of <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a>. By checking <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> regularly, you can take advantage of discounted packages, early bird specials, and last-minute deals. The savings available through <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> can make your dream holiday more affordable than you might expect.</p>
+            
+            <p>Seasonal promotions are common on <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a>, so it's worth visiting <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> during different times of the year to find the best deals. Whether you're planning ahead or looking for a spontaneous getaway, <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> offers opportunities to save on your vacation.</p>
+            
+            <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&h=500&fit=crop" alt="Planning vacation booking" class="article-image" style="width: 100%; border-radius: var(--radius-md); margin: var(--spacing-lg) 0; box-shadow: 0 4px 12px var(--shadow);">
+            
+            <h2>Tips for Booking with loveholidays</h2>
+            <p>To make the most of your experience with <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a>, consider these helpful tips. First, be flexible with your travel dates when searching on <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a>, as this can often lead to better prices. The flexible date search feature on <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> makes it easy to find the most affordable options.</p>
+            
+            <p>Reading reviews is another valuable step when using <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a>. Many travelers share their experiences on <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a>, providing insights into hotels, destinations, and overall holiday experiences. These reviews can help you make informed decisions when booking through <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a>.</p>
+            
+            <p>Early booking through <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> can often result in significant savings. The early bird specials available on <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> are perfect for those who plan ahead. Additionally, signing up for email notifications from <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> ensures you'll be the first to know about new deals and promotions offered by <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a>.</p>
+            
+            <h2>Conclusion: Start Your Journey with loveholidays</h2>
+            <p>Your dream holiday is just a click away when you visit <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a>. The comprehensive platform provided by <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> makes it easy to find, compare, and book the perfect vacation. Whether you're planning a romantic escape, family adventure, or solo exploration, <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> offers the tools and options you need to make it happen.</p>
+            
+            <p>Don't wait to start planning your next adventure. Visit <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a> today and discover the countless possibilities for your dream holiday. With <a href="https://www.linkbux.com/track?pid=LB00012957&mid=157368&url=https%3A%2F%2Fwww.loveholidays.com%2Fde%2F" target="_blank" rel="noopener noreferrer">loveholidays</a>, paradise is within reach.</p>
+        `,
+        products: [
+            {
+                name: 'Travel Guide: Best Holiday Destinations',
+                description: 'Comprehensive guidebook featuring the world\'s most beautiful holiday destinations. Includes travel tips, cultural insights, and recommendations for unforgettable vacations.',
+                image: 'https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=300&h=200&fit=crop'
+            },
+            {
+                name: 'Premium Luggage Set',
+                description: 'Durable, lightweight luggage set perfect for your dream holiday. Features TSA locks, 360-degree wheels, and spacious compartments for all your travel essentials.',
+                image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=300&h=200&fit=crop'
+            },
+            {
+                name: 'Beach Vacation Essentials Kit',
+                description: 'Complete beach vacation kit including sunscreen, beach towel, water bottle, and travel accessories. Everything you need for a relaxing beach holiday.',
+                image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=300&h=200&fit=crop'
+            },
+            {
+                name: 'Travel Camera',
+                description: 'Compact digital camera perfect for capturing your holiday memories. Waterproof design, excellent image quality, and easy-to-use features for stunning vacation photos.',
+                image: 'https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=300&h=200&fit=crop'
+            }
+        ]
     }
 ];
 
